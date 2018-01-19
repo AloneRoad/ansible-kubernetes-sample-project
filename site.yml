@@ -5,5 +5,10 @@
   vars:
     redis_server_replicas: 3
     redis_sentinel_replicas: 3
+
+    mysql_root_password: foo
+    mysql_replication_password: bar
+    mysql_password: aaa
   roles:
-    - role: redis
+    - redis
+    - mysql

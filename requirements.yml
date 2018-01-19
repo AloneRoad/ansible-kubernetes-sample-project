@@ -2,3 +2,7 @@
 - src: https://github.com/aloneroad/k8s-role-redis
   version: master
   name: redis
+
+- src: https://github.com/aloneroad/k8s-role-mysql
+  version: master
+  name: mysql

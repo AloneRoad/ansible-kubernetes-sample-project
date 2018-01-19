@@ -1,0 +1,9 @@
+- hosts: 127.0.0.1
+  connection: local
+  gather_facts: false
+  run_once: true
+  vars:
+    redis_ha_server_replicas: 5
+    redis_ha_sentinel_replicas: 3
+  roles:
+    - role: redis-ha

@@ -1,4 +1,4 @@
 
-- src: https://github.com/aloneroad/ansible-role-kubernetes-redis-ha
+- src: https://github.com/aloneroad/k8s-role-redis
   version: master
-  name: redis-ha
+  name: redis

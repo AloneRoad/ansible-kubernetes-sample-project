@@ -8,7 +8,7 @@ ansible-playbook site.yml
 
 ## Changing redis replicas
 
-Edit `redis_ha_server_replicas:` in `site.yml` and run:
+Edit `redis_server_replicas:` in `site.yml` and run:
 
 ```bash
 ansible-playbook site.yml

@@ -3,6 +3,10 @@
   version: master
   name: redis
 
-- src: https://github.com/aloneroad/k8s-role-mysql
+# - src: https://github.com/aloneroad/k8s-role-mysql
+#   version: master
+#   name: mysql
+
+- src: https://github.com/aloneroad/k8s-role-memcached
   version: master
-  name: mysql
+  name: memcached

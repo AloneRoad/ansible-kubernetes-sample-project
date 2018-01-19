@@ -6,9 +6,12 @@
     redis_server_replicas: 3
     redis_sentinel_replicas: 3
 
-    mysql_root_password: foo
-    mysql_replication_password: bar
-    mysql_password: aaa
+    # mysql_root_password: foo
+    # mysql_replication_password: bar
+    # mysql_password: aaa
+
+    memcached_replica_count: 1
   roles:
     - redis
-    - mysql
+    # - mysql
+    - memcached
